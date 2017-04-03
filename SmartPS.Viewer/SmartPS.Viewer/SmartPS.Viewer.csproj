@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{977A9E49-9AA0-444F-8ECC-84D1BC38626F}</ProjectGuid>
+    <ProjectGuid>{E3B4C823-61D7-4BDE-BE9C-AEE331DDA650}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SmartPS.Viewer</RootNamespace>

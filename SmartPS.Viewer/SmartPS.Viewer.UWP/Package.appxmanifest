@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="36bf7c1b-c222-4cad-bc4e-f5d31a625d37"
+    Name="3900cd6c-6819-4f47-82dd-4812b72f63cb"
     Publisher="CN=winma"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="36bf7c1b-c222-4cad-bc4e-f5d31a625d37" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="3900cd6c-6819-4f47-82dd-4812b72f63cb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>SmartPS.Viewer.UWP</DisplayName>

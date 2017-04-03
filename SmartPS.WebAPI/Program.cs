@@ -12,11 +12,15 @@ namespace SmartPS.WebAPI
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseUrls("http://localhost:5000", "http://192.168.0.103:5000")
+                .UseContentRoot(Directory.GetCurrentDirectory())
+
+                .UseKestrel()
+                .UseIISIntegration()
+
                 .UseApplicationInsights()
+
                 .Build();
 
             host.Run();

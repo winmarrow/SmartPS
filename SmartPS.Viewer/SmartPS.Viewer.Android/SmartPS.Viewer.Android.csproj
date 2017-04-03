@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{91FB360A-E3A7-4647-B5C9-9E01A7181D93}</ProjectGuid>
+    <ProjectGuid>{8FA2562B-E003-474E-895F-1F9882726E1B}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -55,7 +55,6 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.ObjectModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -121,7 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SmartPS.Viewer\SmartPS.Viewer.csproj">
-      <Project>{32f28a58-743c-4cd2-a95c-cab6201a8bfc}</Project>
+      <Project>{6f08cfaa-851c-4af1-bf05-b2d52597d584}</Project>
       <Name>SmartPS.Viewer</Name>
     </ProjectReference>
   </ItemGroup>

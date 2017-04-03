@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4B1D6C78-0774-4112-A556-F14F4C0B7033}</ProjectGuid>
+    <ProjectGuid>{DDE01DE9-D390-4A29-95E6-55FD4B2884E4}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>SmartPS.Viewer.iOS</RootNamespace>
@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SmartPS.Viewer\SmartPS.Viewer.csproj">
-      <Project>{32f28a58-743c-4cd2-a95c-cab6201a8bfc}</Project>
+      <Project>{6f08cfaa-851c-4af1-bf05-b2d52597d584}</Project>
       <Name>SmartPS.Viewer</Name>
     </ProjectReference>
   </ItemGroup>
